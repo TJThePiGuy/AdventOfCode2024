@@ -4,6 +4,10 @@ import numpy as np
 
 puzzle = Puzzle(year=2024, day=1)
 
-data = puzzle.input_data
+def part_a():
 
-print(data)
+    data = puzzle.input_data
+
+    print(data)
+
+part_a()
