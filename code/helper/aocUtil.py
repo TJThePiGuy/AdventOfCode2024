@@ -1,4 +1,4 @@
-class AOCDSubmitter:
+class AOCSubmitter:
 
     def __init__(self, day:int, year:int, save:bool=True):
         self.aocd = __import__("aocd")

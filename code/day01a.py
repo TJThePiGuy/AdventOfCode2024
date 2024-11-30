@@ -1,7 +1,7 @@
 import regex
-import helper.aocdUtil as util
+import helper.aocUtil as util
 
-submitter = util.AOCDSubmitter(day = 1, year = 2023, save = False)
+submitter = util.AOCSubmitter(day = 1, year = 2023, save = False)
 
 data = submitter.data
 
