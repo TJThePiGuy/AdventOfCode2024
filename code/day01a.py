@@ -1,8 +1,9 @@
 import regex
-import helper.aocUtil as util
+from aocd.models import Puzzle
+import numpy as np
 
-submitter = util.AOCSubmitter(day = 1, year = 2023, save = False)
+puzzle = Puzzle(year=2024, day=1)
 
-data = submitter.data
+data = puzzle.input_data
 
-submitter.submit(54708, 1)
+print(data)
