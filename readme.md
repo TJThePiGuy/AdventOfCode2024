@@ -5,3 +5,4 @@ That's right, we're back! It only feels like a few months ago that I was writing
 | Day | Part A Time | Part B Time |
 |---|---|---|
 | [Day 1](notes/day01.md) | 00:03:24 | 00:01:16 |
+| [Day 2](notes/day02.md) | --- | --- |
