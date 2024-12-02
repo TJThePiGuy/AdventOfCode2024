@@ -23,7 +23,7 @@ def part_b():
     rows = [[int(i) for i in _.split()] for _ in puzzle.input_data.split('\n')]
     for old_row in rows:
         good = False
-        for idx in range(len(old_row)):
+        for idx in range(len(old_row)+1):
             row = old_row[:idx]+old_row[idx+1:]
             diffs = np.diff(row)
             if not(all(i > 0 for i in diffs) or all(i < 0 for i in diffs)):
